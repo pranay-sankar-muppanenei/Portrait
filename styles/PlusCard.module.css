@@ -1,0 +1,140 @@
+.plusWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f9f9f9;
+  padding: 2rem;
+  width: 80%;
+  margin-top: 10px;
+}
+
+.plusCard {
+  background: white;
+  border-radius: 20px;
+  padding: 2rem;
+  max-width: 800px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.05);
+  text-align: center;
+  
+}
+
+.starIconWrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.animatedStar {
+  font-size: 2rem;
+  background: linear-gradient(270deg, #f39c12, #e74c3c, #9b59b6, #3498db);
+  background-size: 800% 800%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientAnimation 6s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 2rem;
+
+}
+
+.featuresGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.featureItem {
+  display: flex;
+  flex-direction: column;
+    align-items: center;
+  gap: 20px;
+}
+.Center{
+    text-align: center;
+}
+
+.iconBox {
+  font-size: 1.2rem;
+  padding: 0.6rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.blue {
+  background-color: #3498db;
+}
+
+.orange {
+  background-color: #e67e22;
+}
+
+.green {
+  background-color: #2ecc71;
+}
+
+.pink {
+  background-color: #e84393;
+}
+
+.featureItem h4 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.featureItem p {
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.price {
+  font-size: 25px;
+  font-style: italic;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.price span {
+    font-size: 1rem;
+  font-style: normal;
+  color: #888;
+}
+
+.ctaButton {
+  background: black;
+  color: white;
+  padding: 0.6rem 1.5rem;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.ctaButton:hover {
+  background: #333;
+}
+.white{
+    color:White;
+}

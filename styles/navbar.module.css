@@ -1,0 +1,182 @@
+.navRight{
+    margin-left:auto;
+    justify-content: space-between;
+    gap:25px;
+    display: flex;
+}
+
+.navLeft{
+    display: flex;
+   margin-right: auto;
+   align-items: center;
+   gap:4%;
+}
+
+@media screen and (max-width: 767px) {
+    .navLeft{
+        display: none;
+    }
+    
+}
+
+.icon{
+    font-size: 28px;
+    cursor: pointer;
+    color: red;
+    margin-right: 10px;
+}
+.icon0{
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    color: red;
+    display: none;
+}
+@media screen and (max-width: 767px) {
+    .icon0{
+        display:flex;
+    }
+}
+.nav{
+  background-color: white;
+  position: fixed;
+  border-radius: 10px;
+  height: 50px;
+  padding: 15px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  z-index: 1000;
+  width: 85%;
+  top:30px;
+  border-radius: 30px;
+  display:flex;
+  align-items: center;;
+} 
+@media screen and (max-width: 767px) {
+    .nav{
+        width: 89%;
+    }
+    
+}
+.flex{
+    display:flex;
+    margin-right: 10px;
+    align-items: center;
+}
+.portrait{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+.newAlign{
+    position: relative;
+    display:flex;
+}
+.new{
+    color:red;
+    position:absolute;
+    font-size: 10px;
+    top: 1px;
+    right: -20px;
+    transform: rotateZ(17deg) ;
+    
+}
+@media screen and (max-width: 767px) {
+    .new{
+        font-size: 8px;
+        top: 5px;
+        right:-15px;    }
+    
+}
+/* Mobile dropdown menu */
+.dropdown {
+    position: absolute;
+    top: 65px;
+    right: 15px;
+    background-color: white;
+    padding: 6px 5px;
+    border-radius: 18px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    z-index: 999;
+    width: 110px;
+}
+
+/* Optional: smooth appearance */
+.dropdown a {
+    color: #797979;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px;
+    height: 10px;
+    display: flex;
+       align-items: center;
+    justify-content: center;
+}
+.dropdown a:hover {
+    color: black;
+    background-color: #f0f0f0f1;
+}
+.nav a{
+    color: #797979;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px;
+    height: 10px;
+    display: flex;
+       align-items: center;
+    justify-content: center;
+}
+.nav a:hover{
+    color:black;
+   
+    background-color: #f0f0f0f1;
+ 
+}
+
+.hamburger{
+    display:none;
+}
+@media screen and (max-width: 767px) {
+    .hamburger{
+        display:flex;
+    }
+    
+}
+.icon1,.icon2{
+    margin-top: 7px;
+    color:black;
+    font-size: 20px;
+    cursor: pointer;
+}
+.active {
+  background-color: #f0f0f0f1;
+  border-radius: 20px;
+  color: black !important;
+}
+.signupBtnWrapper {
+   padding: 2px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #00c6ff, #ff6ec4, #fddb92, #00c6ff);
+  display: inline-block;
+  
+}
+
+.signupBtn {
+  padding: 6px 18px;
+  background: white;
+  color: #1d1d1f;
+  font-weight: 600;
+  font-size: 14px;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}

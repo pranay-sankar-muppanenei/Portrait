@@ -1,0 +1,62 @@
+.container{
+    background-color:white;
+    width: 75%;
+    border-width: 2px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #20202044;
+    box-sizing:border-box;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+.profile{
+    display: flex;
+}
+.profileImage{
+   border-radius:50px;
+   height: 100px;
+   width: 100px;
+   padding: 15px;
+}
+.type1{
+    height: 100px;
+    width: 200px;
+    margin: 10px;
+       object-fit: cover;
+}
+.type2{
+  
+    height: 100px;
+    width: 310px;
+    margin: 10px;
+         object-fit: cover;
+   
+}
+.type3{
+    height: 100px;
+    width: 210px;
+    margin: 10px;
+       object-fit: cover;
+}
+.type4{
+    height: 110px;
+    width: 340px;
+    margin: 10px;
+       object-fit: cover;
+}
+.type5{
+    height: 80%;
+    width: 200px;
+    margin: 10px;
+       object-fit: cover;
+}
+.wrap{
+    display: flex;
+    flex-wrap:wrap;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+}
