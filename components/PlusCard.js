@@ -39,7 +39,7 @@ const PlusCard = () => {
             <div className={`${styles.iconBox} ${styles.green}`}><FaEarlybirds /></div>
             <div className={styles.Center}>
               <h4>Early access</h4>
-              <p>Be the first to try new features, design updates, and experimental tools — before they're public.</p>
+              <p>Be the first to try new features, design updates, and experimental tools — before they are public.</p>
             </div>
           </div>
 
